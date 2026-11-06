@@ -45,16 +45,6 @@ pipe, so logs stay clean).
   `venv`, `coverage`. Cargo target directories are recognized by their
   `CACHEDIR.TAG` + `.rustc_info.json` signature regardless of their name.
 
-### Real-world example (this machine)
-
-```
-  reclaimable now:   6.56 GB        (this elevation level)
-  needs admin:       7.9 MB         (relaunch or right-click -> Run as admin)
-
-  C:\: free 15.82 GB -> 21.61 GB  (+5.78 GB)
-  D:\: free 5.75 GB -> 5.99 GB  (+244.2 MB)
-```
-
 ## Safety rules (why this won't ruin your projects)
 
 1. **Report first.** Interactive mode prints the full report and asks before
